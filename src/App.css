@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+p {
+  margin: 0px;
+}
+p span {
+  color: #009688;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.topbar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav-item button {
+  border: none;
+  font-weight: 600;
+}
+.appName {
+  align-self: flex-start;
+  width: 50%;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.menu ul {
+  align-self: flex-end;
+}
+.mainLogin {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+}
+.mainLogin hr {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.mainHomeAdmin {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftDiv {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  margin: 20px;
+  margin-right: 0px;
+  width: 30%;
+}
+
+.optionButtons {
+  font-size: 26px;
+  text-align: left;
+  background-color: transparent;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.active {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  width: 70%;
+  height: 590px;
+  border-left: 1px solid black;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.mainHomeEmp {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.empList,
+.medList {
+  display: flex;
+  flex-direction: column;
+}
+
+.empList div,
+.orderList div,
+.medList div {
+  display: flex;
+}
+
+.orderList div span,
+.empList div span,
+.medList div span {
+  margin-left: 15%;
+  width: 50%;
+}
+
+.buttonsSpan {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0 !important;
+  width: 20% !important;
+  justify-self: flex-end;
+}
+
+.buttonsSpan button {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: none;
+  background-color: lightgrey;
+}
+
+.editEmpDetails,
+.editMedDetails {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#footerDiv {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: black;
+  height: 35px;
 }
