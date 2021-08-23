@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PharmacyManagement_React/static/css/main.177b1353.chunk.css",
+    "main.js": "/PharmacyManagement_React/static/js/main.e0e981fd.chunk.js",
+    "main.js.map": "/PharmacyManagement_React/static/js/main.e0e981fd.chunk.js.map",
+    "runtime-main.js": "/PharmacyManagement_React/static/js/runtime-main.d24318d8.js",
+    "runtime-main.js.map": "/PharmacyManagement_React/static/js/runtime-main.d24318d8.js.map",
+    "static/js/2.326f9ac2.chunk.js": "/PharmacyManagement_React/static/js/2.326f9ac2.chunk.js",
+    "static/js/2.326f9ac2.chunk.js.map": "/PharmacyManagement_React/static/js/2.326f9ac2.chunk.js.map",
+    "static/js/3.36d53382.chunk.js": "/PharmacyManagement_React/static/js/3.36d53382.chunk.js",
+    "static/js/3.36d53382.chunk.js.map": "/PharmacyManagement_React/static/js/3.36d53382.chunk.js.map",
+    "index.html": "/PharmacyManagement_React/index.html",
+    "static/css/main.177b1353.chunk.css.map": "/PharmacyManagement_React/static/css/main.177b1353.chunk.css.map",
+    "static/js/2.326f9ac2.chunk.js.LICENSE.txt": "/PharmacyManagement_React/static/js/2.326f9ac2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d24318d8.js",
+    "static/js/2.326f9ac2.chunk.js",
+    "static/css/main.177b1353.chunk.css",
+    "static/js/main.e0e981fd.chunk.js"
+  ]
+}
